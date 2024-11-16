@@ -1,0 +1,119 @@
+/* Designed by Joshua Saint-Ulysse 12/26/22 */
+
+html, body {
+	height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #000000;
+}
+
+
+	/* Mobile */
+	@media screen and (min-width: 320px) {
+
+		header {
+			text-align: center;
+		}
+
+		#logoandtitle, #nav1 {
+			vertical-align: middle;
+		}
+
+		#logoandtitle a {
+			font-family: 'poppinsEL', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		#nav1 a {
+			font-family: 'poppinsthin', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+	}
+
+
+	/* Tablet */
+	@media screen and (min-width: 768px) {
+
+		header { /* Offset padding to align as mobile */
+			margin-left: -5em;
+		}
+
+		#logoandtitle a {
+			font-family: 'poppinsEL', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+			padding-right: 2em;
+			padding-left: 2em;
+		}
+
+		#nav1 {
+			text-align: left;
+		}
+
+		#nav1 a {
+			font-family: 'poppinsthin', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		#logoandtitle hr, .tabletremove {
+			display: none;
+		}
+
+		.navtablet {
+			display: inline-block;
+		}
+	}
+
+
+	/* Desktop */
+	@media screen and (min-width: 1024px) {
+
+		header {
+			margin-left: 0;
+		}
+
+		#header1 div {
+			display: inline-block;
+		}
+
+		#logoandtitle a {
+			font-family: 'poppinsEL', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+			padding-right: 0.6em;
+			padding-left: 0.6em;
+		}
+
+		#nav1 a {
+			font-family: 'poppinsthin', sans-serif;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #FFFFFF;
+			padding-right: 0.6em;
+			padding-left: 0.6em;
+		}
+
+		nav br, #logoandtitle br {
+			display: none;
+		}
+
+		#logoandtitle hr {
+			display: none;
+		}
+	}

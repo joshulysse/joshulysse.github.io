@@ -1,0 +1,33 @@
+/* Designed by Joshua Saint-Ulysse 12/26/22 */
+
+@font-face {
+	font-family: 'poppinsreg';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'poppinslight';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+	font-family: 'poppinsEL';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'poppinsthin';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../fonts/Poppins/Poppins-Thin.ttf');
+}
